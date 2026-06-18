@@ -1,0 +1,17 @@
+/* stylelint-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* stylelint-enable */
+
+body {
+  background-color: #f8f9fa;
+  color: #111827;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #ff6b35, #fb923c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
